@@ -7,6 +7,7 @@ const forecast = require('./utils/forecast')
 const app = express()
 //extract the value that heroku provides  process.env.PORT but if .PORT won't work, app will switch to 3000 (so localhost on our PC)
 const port = process.env.PORT || 3000
+//https://samson-weather-application.herokuapp.com/
 
 
 // Define paths for Express config
